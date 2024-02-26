@@ -1,0 +1,1436 @@
+[gd_scene load_steps=2 format=3 uid="uid://bycy2nbtujfkp"]
+
+[ext_resource type="Texture2D" uid="uid://dlbni1fi8ho4x" path="res://Backgrounds/darkPurple.png" id="1_0houy"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+texture_repeat = 2
+motion_mirroring = Vector2(512, 512)
+
+[node name="DarkPurple" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple14" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple15" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple16" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple17" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple3" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple7" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple11" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple12" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1536, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple13" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple8" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple4" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple9" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple10" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple2" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple5" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple6" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple18" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple19" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple20" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple21" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple22" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple23" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple24" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple25" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple26" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3584, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple27" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple28" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple29" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple30" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple31" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple32" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple33" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple34" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple35" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple36" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple37" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple38" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple39" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple40" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple41" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple42" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple43" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3584, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple44" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple45" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3328, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple46" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple47" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple48" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2048, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple49" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(2304, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple50" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple51" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(3072, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple52" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple53" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple54" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple55" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple56" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple57" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple58" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple59" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple60" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1536, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple61" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple62" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1280, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple63" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple64" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple65" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple66" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(256, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple67" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple68" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(1024, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple69" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple70" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple71" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple72" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple73" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple74" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple75" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple76" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple77" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-512, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple78" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple79" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple80" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple81" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple82" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple83" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple84" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple85" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple86" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple87" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple88" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple89" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple90" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple91" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple92" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple93" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple94" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-512, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple95" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple96" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-768, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple97" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple98" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple99" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-2048, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple100" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1792, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple101" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple102" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(-1024, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple103" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple104" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple105" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple106" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple107" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple108" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple109" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple110" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple111" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7680, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple112" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple113" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple114" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple115" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple116" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple117" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple118" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple119" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple120" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple121" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple122" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple123" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple124" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple125" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple126" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple127" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple128" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9728, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple129" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple130" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple131" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple132" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple133" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple134" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple135" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple136" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple137" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple138" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple139" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple140" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple141" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple142" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple143" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple144" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple145" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9728, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple146" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple147" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9472, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple148" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple149" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple150" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8192, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple151" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(8448, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple152" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple153" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(9216, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple154" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple155" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple156" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple157" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple158" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple159" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple160" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple161" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple162" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7680, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple163" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple164" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7424, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple165" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple166" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple167" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6144, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple168" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(6400, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple169" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple170" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(7168, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple171" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple172" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple173" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple174" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple175" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 3328)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple176" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple177" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple178" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple179" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5632, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple180" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple181" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple182" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple183" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple184" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 3072)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple185" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple186" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 2304)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple187" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 2048)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple188" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple189" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple190" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple191" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple192" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 1280)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple193" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple194" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple195" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple196" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5632, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple197" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple198" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5376, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple199" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple200" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple201" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4096, 1024)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple202" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(4352, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple203" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 256)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="DarkPurple204" type="Sprite2D" parent="ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(5120, 0)
+texture = ExtResource("1_0houy")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)

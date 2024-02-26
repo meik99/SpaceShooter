@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3 uid="uid://yptgeunobcf0"]
+
+[ext_resource type="Script" path="res://Hazards/meteor.gd" id="1_2omqc"]
+[ext_resource type="Texture2D" uid="uid://rul28rbgdib" path="res://Tilesheets/sheet.svg" id="1_e1rev"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jlb1x"]
+radius = 41.0488
+
+[node name="Meteor" type="RigidBody2D"]
+top_level = true
+collision_layer = 2
+collision_mask = 2
+mass = 0.01
+gravity_scale = 0.0
+script = ExtResource("1_2omqc")
+
+[node name="Sheet" type="Sprite2D" parent="."]
+texture = ExtResource("1_e1rev")
+region_enabled = true
+region_rect = Rect2(767, 2, 104, 86)
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-2, -4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_jlb1x")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_jlb1x")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
