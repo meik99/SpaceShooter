@@ -1,8 +1,8 @@
 extends RigidBody2D
 class_name Shot
 
-@export var fire_rate := 1 / 10.0
-@export var projectile_speed := 1000
+@export var fire_rate := 1 / 5.0
+@export var projectile_speed := 3000
 
 func shoot(player: Player) -> void:
 	player.add_child(self)

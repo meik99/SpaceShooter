@@ -1,10 +1,58 @@
-[gd_scene load_steps=4 format=3 uid="uid://yptgeunobcf0"]
+[gd_scene load_steps=15 format=3 uid="uid://yptgeunobcf0"]
 
 [ext_resource type="Script" path="res://Hazards/meteor.gd" id="1_2omqc"]
 [ext_resource type="Texture2D" uid="uid://rul28rbgdib" path="res://Tilesheets/sheet.svg" id="1_e1rev"]
+[ext_resource type="Texture2D" uid="uid://dyv8g7ylfhy5p" path="res://Explosion/regularExplosion00.png" id="3_fo7wa"]
+[ext_resource type="Texture2D" uid="uid://b8ijyuxwr5kvn" path="res://Explosion/regularExplosion01.png" id="4_7dlmh"]
+[ext_resource type="Texture2D" uid="uid://b2erco0pm73vu" path="res://Explosion/regularExplosion02.png" id="5_r6owm"]
+[ext_resource type="Texture2D" uid="uid://bijy80qka50u5" path="res://Explosion/regularExplosion03.png" id="6_rk87g"]
+[ext_resource type="Texture2D" uid="uid://bajxopgnrvlct" path="res://Explosion/regularExplosion04.png" id="7_3pohj"]
+[ext_resource type="Texture2D" uid="uid://3ikuxnqwlhq2" path="res://Explosion/regularExplosion05.png" id="8_eo2mg"]
+[ext_resource type="Texture2D" uid="uid://dhjqq2l4mr7bh" path="res://Explosion/regularExplosion06.png" id="9_jlceu"]
+[ext_resource type="Texture2D" uid="uid://co0ovfk7heucb" path="res://Explosion/regularExplosion07.png" id="10_opavg"]
+[ext_resource type="Texture2D" uid="uid://bt1mp8lrq6j1e" path="res://Explosion/regularExplosion08.png" id="11_t3jkm"]
+[ext_resource type="AudioStream" uid="uid://bchen4btlmr6a" path="res://Hazards/lowFrequency_explosion_001.ogg" id="12_uqfjk"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jlb1x"]
 radius = 41.0488
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4wyou"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_fo7wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7dlmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_r6owm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rk87g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3pohj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_eo2mg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_jlceu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_opavg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_t3jkm")
+}],
+"loop": false,
+"name": &"explosion",
+"speed": 24.0
+}]
 
 [node name="Meteor" type="RigidBody2D"]
 top_level = true
@@ -14,7 +62,7 @@ mass = 0.01
 gravity_scale = 0.0
 script = ExtResource("1_2omqc")
 
-[node name="Sheet" type="Sprite2D" parent="."]
+[node name="Sprite" type="Sprite2D" parent="."]
 texture = ExtResource("1_e1rev")
 region_enabled = true
 region_rect = Rect2(767, 2, 104, 86)
@@ -29,6 +77,15 @@ shape = SubResource("CircleShape2D_jlb1x")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_jlb1x")
+
+[node name="Explosion" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -2)
+scale = Vector2(0.606771, 0.606771)
+sprite_frames = SubResource("SpriteFrames_4wyou")
+animation = &"explosion"
+
+[node name="ExplosionSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_uqfjk")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
